@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition Web App</title>
+</head>
+<body>
+    <h2>Upload an Image for Recognition</h2>
+    <form action="/recognize" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>

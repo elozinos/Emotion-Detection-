@@ -1,0 +1,7 @@
+Flask
+gunicorn
+tensorflow
+opencv-python
+numpy
+pillow
+sqlite3-binary
